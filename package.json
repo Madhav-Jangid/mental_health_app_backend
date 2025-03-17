@@ -15,6 +15,8 @@
   "type": "commonjs",
   "main": "api/index.js",
   "scripts": {
+    "preinstall": "npm install --force",
+    "start": "node api/index.js",
     "dev": "nodemon api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
