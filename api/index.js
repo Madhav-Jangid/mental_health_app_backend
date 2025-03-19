@@ -34,7 +34,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 
 //port
-const port = process.env.PORT || 5000
+const port = process.env.PORT
 
 //websockt
 const server = http.createServer(app);
